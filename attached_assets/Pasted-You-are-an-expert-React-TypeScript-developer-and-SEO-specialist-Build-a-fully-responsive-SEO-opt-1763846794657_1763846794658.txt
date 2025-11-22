@@ -1,0 +1,255 @@
+You are an expert React + TypeScript developer and SEO specialist.
+Build a fully responsive, SEO-optimised website for an Indian waterproofing and society building repair business, similar in purpose to: shrisiddhivinayakwaterproofing.in.
+
+Use React + TypeScript (preferred) or React + JavaScript if needed.
+Use React Router for multi-page navigation.
+
+Overall Requirements
+
+Tech stack: React + TypeScript, React Router, CSS (or CSS Modules)
+
+Clean, modern, professional UI suitable for service business
+
+Mobile-first, responsive layout
+
+Fast loading, minimal unused code
+
+SEO-friendly structure and content
+
+Well-organised file structure
+
+Pages to Implement
+
+Create a multi-page app with these routes:
+
+Home Page (/)
+
+About Page (/about)
+
+Services Page (/services)
+
+Projects / Gallery Page (/projects)
+
+Contact Page (/contact)
+
+Use a shared Navbar and Footer across all pages.
+
+Home Page
+
+Sections:
+
+Hero Section
+
+Strong headline like: “Expert Waterproofing & Society Building Repair Services”
+
+Subtext: focus on leak-proof, long-lasting solutions for housing societies and homes
+
+CTA buttons: “Book a Free Inspection” and “View Services”
+
+Services Overview
+
+Cards with icons and short descriptions:
+
+Terrace Waterproofing
+
+Bathroom Leakage Repair
+
+Wall Crack Filling & Seepage Control
+
+Chemical Coating
+
+Water Tank Waterproofing
+
+Structural Repairs & Society Maintenance
+
+Why Choose Us
+
+Bullet points: 10+ years experience, trained team, quality materials, long-term warranty-style assurance (but no fake claims), timely execution, transparent pricing
+
+Service Areas
+
+Text mentioning: Mumbai, Navi Mumbai, Thane, Pune
+
+Testimonials
+
+3–4 simple testimonial cards with name, society name, short quote
+
+About Page
+
+Short story of the business
+
+Focus on reliability, experience, working with housing societies
+
+Mission and values (quality, safety, long-term solutions)
+
+Use friendly, human copy
+
+Services Page
+
+Create detailed sections for each service with headings and paragraphs:
+
+Terrace Waterproofing
+
+Bathroom & Toilet Leakage Repair
+
+Balcony and Wall Seepage Solutions
+
+Roof and Overhead Tank Waterproofing
+
+Crack Filling and External Wall Treatment
+
+Structural Repair & Society Building Maintenance
+
+Each section should include:
+
+What the problem is
+
+How the service solves it
+
+Simple, step-by-step explanation of the process
+
+Benefits for housing societies and homeowners
+
+Projects / Gallery Page
+
+Grid of “project cards”
+
+Each card contains:
+
+Project title (e.g., “Terrace Waterproofing – XYZ Society, Thane”)
+
+Short description of the problem and solution
+
+Before / After image placeholders (use sample images or solid colour blocks with labels “Before” and “After”)
+
+Add hover effects or simple animations to make it visually appealing.
+
+Contact Page
+
+Contact form with fields:
+
+Name
+
+Phone number
+
+Email (optional)
+
+Society name / Building name
+
+Location
+
+Type of service required (dropdown)
+
+Message / Description box
+
+Basic front-end validation (required fields, phone format check)
+
+Text panel on the side with:
+
+Working hours
+
+Service areas
+
+A short reassurance like “We usually respond within 24 hours.”
+
+No actual backend integration needed – just handle the submit event gracefully (e.g., show a success message).
+
+Layout & Styling Requirements
+
+Shared Header/NavBar with logo text (e.g., “Shri Siddhivinayak Waterproofing”) and links to all pages
+
+Shared Footer with:
+
+Quick links
+
+Service areas
+
+Small copyright text
+
+Use a blue + white dominant colour palette, with grey accents
+
+Good spacing, readable fonts, clear headings
+
+Use Flexbox or CSS Grid for sections
+
+Add subtle hover effects and maybe small fade-in animations
+
+SEO Requirements
+
+Implement strong SEO practices for a React site:
+
+Use semantic HTML:
+
+<header>, <main>, <section>, <footer>, <nav>, <article>
+
+Use react-helmet or react-helmet-async (preferred) to add SEO tags per page:
+
+<title> specific to each page (e.g., “Terrace Waterproofing Services in Mumbai | Shri Siddhivinayak Waterproofing”)
+
+<meta name="description" …> with relevant text
+
+<meta name="keywords" …> (e.g., waterproofing services, terrace waterproofing, bathroom leakage repair, society building repairs, Mumbai)
+
+Open Graph tags (og:title, og:description, og:type, og:url)
+
+Add alt attributes for all images.
+
+Use proper heading hierarchy:
+
+One <h1> per page, then <h2>, <h3> for sub-sections.
+
+Ensure mobile responsiveness and fast performance:
+
+No excessively large images
+
+Simple, clean components
+
+Optionally add JSON-LD structured data for “LocalBusiness” or “Service” in a <script type="application/ld+json"> using Helmet.
+
+Project Structure
+
+Create a clean structure, for example:
+
+src/
+
+main.tsx or index.tsx
+
+App.tsx
+
+components/
+
+Navbar.tsx
+
+Footer.tsx
+
+ServiceCard.tsx
+
+TestimonialCard.tsx
+
+pages/
+
+Home.tsx
+
+About.tsx
+
+Services.tsx
+
+Projects.tsx
+
+Contact.tsx
+
+seo/ (optional)
+
+SEOHead.tsx or per-page SEO components
+
+styles/
+
+global.css or App.css
+
+Use React Router for page navigation.
+
+Final Instruction
+
+Generate all necessary React + TypeScript code, including routing, components, pages, styles, and SEO meta tags, so that I can run the project immediately in Replit.
+
+Make sure the code is clean, readable, and production-ready.
