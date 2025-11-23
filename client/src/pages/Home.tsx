@@ -40,7 +40,7 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/services">
-                <Button size="lg" variant="outline" className="bg-transparent text-white border-white hover:bg-white/10 backdrop-blur-sm" data-testid="button-hero-services">
+                <Button size="lg" variant="outline" className="bg-white/25 text-white border-white hover:bg-white/35 backdrop-blur-sm" data-testid="button-hero-services">
                   <Eye className="w-5 h-5 mr-2" />
                   View Services
                 </Button>
