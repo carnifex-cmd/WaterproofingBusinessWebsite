@@ -7,7 +7,7 @@ export default function Projects() {
     <>
       <SEOHead
         title="Our Projects - Waterproofing Work Gallery"
-        description="View our completed waterproofing projects across Mumbai, Navi Mumbai, Thane, and Pune. Real projects completed by Shri Siddhivinayak Waterproofing for residential buildings, societies, and commercial establishments."
+        description="View our completed waterproofing projects across Mumbai, Navi Mumbai, and Thane. Real projects completed by Shri Siddhivinayak Waterproofing for residential buildings, societies, and commercial establishments."
         keywords="waterproofing projects Mumbai, completed projects, terrace repair, building waterproofing, society maintenance, waterproofing portfolio"
       />
 

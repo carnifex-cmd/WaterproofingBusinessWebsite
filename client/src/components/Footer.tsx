@@ -14,7 +14,6 @@ export default function Footer() {
     "Mumbai",
     "Navi Mumbai",
     "Thane",
-    "Pune",
   ];
 
   return (

@@ -7,7 +7,7 @@ export default function Contact() {
     <>
       <SEOHead
         title="Contact Us - Shri Siddhivinayak Waterproofing"
-        description="Contact Shri Siddhivinayak Waterproofing for waterproofing solutions. Serving Mumbai, Navi Mumbai, Thane, and Pune. Call +91 98765 43210 for free inspection."
+        description="Contact Shri Siddhivinayak Waterproofing for waterproofing solutions. Serving Mumbai, Navi Mumbai, and Thane. Call +91 98765 43210 for free inspection."
         keywords="contact waterproofing Mumbai, free inspection, waterproofing quote, terrace repair contact, bathroom leakage consultation"
       />
 

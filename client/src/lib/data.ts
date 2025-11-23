@@ -71,7 +71,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "4",
     name: "Sneha Desai",
-    society: "Shivaji Nagar Complex, Pune",
+    society: "Shivaji Nagar Complex, Thane",
     quote:
       "Outstanding service! They solved our persistent wall seepage problem that other contractors couldn't fix. Very happy with the results and warranty.",
   },
@@ -111,7 +111,7 @@ export const projects: Project[] = [
   {
     id: "4",
     title: "Overhead Tank Waterproofing",
-    location: "Laxmi Apartments, Pune",
+    location: "Laxmi Apartments, Thane",
     description:
       "Complete overhead tank waterproofing including cleaning, crack repair, and food-grade coating application for safe water storage.",
     serviceType: "Water Tank Waterproofing",
@@ -413,7 +413,7 @@ export const projects2 = [
   }
 ];
 
-export const serviceAreas = ["Mumbai", "Navi Mumbai", "Thane", "Pune"];
+export const serviceAreas = ["Mumbai", "Navi Mumbai", "Thane"];
 
 export const whyChooseUs = [
   {

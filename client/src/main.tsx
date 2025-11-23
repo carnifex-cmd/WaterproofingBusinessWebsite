@@ -51,13 +51,9 @@ const structuredData = {
     {
       "@type": "City",
       "name": "Thane"
-    },
-    {
-      "@type": "City",
-      "name": "Pune"
     }
   ],
-  "description": "Professional waterproofing and building repair services for terraces, bathrooms, walls, and complete society maintenance across Mumbai, Navi Mumbai, Thane, and Pune."
+  "description": "Professional waterproofing and building repair services for terraces, bathrooms, walls, and complete society maintenance across Mumbai, Navi Mumbai, and Thane."
 };
 
 // Add structured data to head

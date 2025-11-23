@@ -131,7 +131,7 @@ export default function Services() {
     <>
       <SEOHead
         title="Waterproofing Services - Terrace, Bathroom, Wall & Building Repairs"
-        description="Comprehensive waterproofing services including terrace waterproofing, bathroom leakage repair, wall seepage treatment, water tank waterproofing, and complete building maintenance for housing societies in Mumbai, Thane, Navi Mumbai, and Pune."
+        description="Comprehensive waterproofing services including terrace waterproofing, bathroom leakage repair, wall seepage treatment, water tank waterproofing, and complete building maintenance for housing societies in Mumbai, Thane, and Navi Mumbai."
         keywords="terrace waterproofing Mumbai, bathroom leakage repair, wall seepage treatment, water tank waterproofing, building maintenance services, society repairs, structural waterproofing"
       />
 

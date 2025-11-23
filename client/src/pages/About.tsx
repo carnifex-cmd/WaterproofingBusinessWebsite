@@ -30,7 +30,7 @@ export default function About() {
     <>
       <SEOHead
         title="About Us - Professional Waterproofing Experts"
-        description="Learn about Shri Siddhivinayak Waterproofing, a trusted name in waterproofing and building repairs with 10+ years of experience serving housing societies across Mumbai, Thane, Navi Mumbai, and Pune."
+        description="Learn about Shri Siddhivinayak Waterproofing, a trusted name in waterproofing and building repairs with 10+ years of experience serving housing societies across Mumbai, Thane, and Navi Mumbai."
         keywords="about waterproofing company, professional waterproofing Mumbai, experienced contractors, building repair experts, society maintenance services"
       />
 
@@ -71,7 +71,7 @@ export default function About() {
                 </p>
                 
                 <p className="text-lg leading-relaxed">
-                  Today, we serve clients across Mumbai, Navi Mumbai, Thane, and Pune, bringing professional expertise and a personal touch to every project, no matter the size. When you choose Shri Siddhivinayak Waterproofing, you're choosing a partner who cares about protecting your property as much as you do.
+                  Today, we serve clients across Mumbai, Navi Mumbai, and Thane, bringing professional expertise and a personal touch to every project, no matter the size. When you choose Shri Siddhivinayak Waterproofing, you're choosing a partner who cares about protecting your property as much as you do.
                 </p>
               </div>
             </div>

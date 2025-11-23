@@ -13,8 +13,8 @@ export default function Home() {
     <>
       <SEOHead
         title="Expert Waterproofing & Society Building Repair Services"
-        description="Professional waterproofing services for terraces, bathrooms, and buildings in Mumbai, Navi Mumbai, Thane, and Pune. 10+ years experience with quality materials and long-term warranty. Get a free inspection today!"
-        keywords="waterproofing Mumbai, terrace waterproofing, bathroom leakage repair, society building repairs, Mumbai waterproofing services, Thane waterproofing, Pune waterproofing, wall seepage treatment"
+        description="Professional waterproofing services for terraces, bathrooms, and buildings in Mumbai, Navi Mumbai, and Thane. 10+ years experience with quality materials and long-term warranty. Get a free inspection today!"
+        keywords="waterproofing Mumbai, terrace waterproofing, bathroom leakage repair, society building repairs, Mumbai waterproofing services, Thane waterproofing, wall seepage treatment"
       />
 
       <main>

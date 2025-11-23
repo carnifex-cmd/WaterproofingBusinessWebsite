@@ -11,7 +11,7 @@ interface SEOHeadProps {
 export default function SEOHead({ 
   title, 
   description, 
-  keywords = "waterproofing services, terrace waterproofing, bathroom leakage repair, society building repairs, Mumbai, Thane, Navi Mumbai, Pune",
+  keywords = "waterproofing services, terrace waterproofing, bathroom leakage repair, society building repairs, Mumbai, Thane, Navi Mumbai",
   ogType = "website",
   ogImage = "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&h=630&fit=crop"
 }: SEOHeadProps) {
