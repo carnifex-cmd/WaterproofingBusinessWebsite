@@ -10,11 +10,7 @@ export default function Footer() {
     { href: "/contact", label: "Contact" },
   ];
 
-  const serviceAreas = [
-    "Mumbai",
-    "Navi Mumbai",
-    "Thane",
-  ];
+  const serviceAreas = ["Mumbai", "Navi Mumbai", "Thane"];
 
   return (
     <footer className="bg-card border-t">
@@ -22,20 +18,29 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
           {/* Company Info */}
           <div>
-            <h3 className="font-heading text-lg font-semibold mb-4" data-testid="text-footer-company">
+            <h3
+              className="font-heading text-lg font-semibold mb-4"
+              data-testid="text-footer-company"
+            >
               Shri Siddhivinayak Waterproofing
             </h3>
-            <p className="text-muted-foreground mb-4" data-testid="text-footer-tagline">
-              Your trusted partner for professional waterproofing and building repair services across Maharashtra.
+            <p
+              className="text-muted-foreground mb-4"
+              data-testid="text-footer-tagline"
+            >
+              Your trusted partner for professional waterproofing and building
+              repair services across Maharashtra.
             </p>
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Phone className="w-4 h-4 text-primary" />
-                <span data-testid="text-phone">+91 98765 43210</span>
+                <span data-testid="text-phone">+91 9821489750</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Mail className="w-4 h-4 text-primary" />
-                <span data-testid="text-email">info@siddhivinayak.com</span>
+                <span data-testid="text-email">
+                  bhalchandrasawant27@gmail.com
+                </span>
               </div>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 text-primary" />
@@ -46,12 +51,17 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-heading text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="font-heading text-lg font-semibold mb-4">
+              Quick Links
+            </h3>
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href}>
-                    <span className="text-muted-foreground hover:text-primary transition-colors cursor-pointer" data-testid={`link-footer-${link.label.toLowerCase().replace(/\s+/g, '-')}`}>
+                    <span
+                      className="text-muted-foreground hover:text-primary transition-colors cursor-pointer"
+                      data-testid={`link-footer-${link.label.toLowerCase().replace(/\s+/g, "-")}`}
+                    >
                       {link.label}
                     </span>
                   </Link>
@@ -62,18 +72,27 @@ export default function Footer() {
 
           {/* Service Areas */}
           <div>
-            <h3 className="font-heading text-lg font-semibold mb-4">Service Areas</h3>
+            <h3 className="font-heading text-lg font-semibold mb-4">
+              Service Areas
+            </h3>
             <ul className="space-y-2">
               {serviceAreas.map((area) => (
-                <li key={area} className="text-muted-foreground" data-testid={`text-area-${area.toLowerCase().replace(/\s+/g, '-')}`}>
+                <li
+                  key={area}
+                  className="text-muted-foreground"
+                  data-testid={`text-area-${area.toLowerCase().replace(/\s+/g, "-")}`}
+                >
                   {area}
                 </li>
               ))}
             </ul>
             <div className="mt-6">
               <p className="text-sm text-muted-foreground">
-                Working Hours:<br />
-                <span className="font-medium text-foreground">Monday - Saturday: 9:00 AM - 7:00 PM</span>
+                Working Hours:
+                <br />
+                <span className="font-medium text-foreground">
+                  Monday - Saturday: 9:00 AM - 7:00 PM
+                </span>
               </p>
             </div>
           </div>
@@ -81,7 +100,8 @@ export default function Footer() {
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
           <p data-testid="text-copyright">
-            © {new Date().getFullYear()} Shri Siddhivinayak Waterproofing. All rights reserved.
+            © {new Date().getFullYear()} Shri Siddhivinayak Waterproofing. All
+            rights reserved.
           </p>
         </div>
       </div>
