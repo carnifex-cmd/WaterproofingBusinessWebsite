@@ -16,11 +16,18 @@ export default function Contact() {
         <section className="py-16 md:py-24 bg-gradient-to-br from-primary/5 to-background">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6" data-testid="text-contact-title">
+              <h1
+                className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold mb-6"
+                data-testid="text-contact-title"
+              >
                 Get in Touch
               </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed" data-testid="text-contact-subtitle">
-                Contact us for a free waterproofing inspection and expert solutions
+              <p
+                className="text-xl text-muted-foreground leading-relaxed"
+                data-testid="text-contact-subtitle"
+              >
+                Contact us for a free waterproofing inspection and expert
+                solutions
               </p>
             </div>
           </div>
@@ -35,7 +42,7 @@ export default function Contact() {
                   <h2 className="font-heading text-2xl font-bold mb-8">
                     Contact Information
                   </h2>
-                  
+
                   <div className="grid md:grid-cols-2 gap-8">
                     {/* Phone */}
                     <div className="flex gap-4">
@@ -44,8 +51,11 @@ export default function Contact() {
                       </div>
                       <div>
                         <h3 className="font-semibold text-lg mb-2">Phone</h3>
-                        <p className="text-muted-foreground text-base" data-testid="text-contact-phone">
-                          +91 98765 43210
+                        <p
+                          className="text-muted-foreground text-base"
+                          data-testid="text-contact-phone"
+                        >
+                          +91 9821489750
                         </p>
                         <p className="text-sm text-muted-foreground mt-1">
                           Mon - Sat, 9:00 AM - 7:00 PM
@@ -60,8 +70,11 @@ export default function Contact() {
                       </div>
                       <div>
                         <h3 className="font-semibold text-lg mb-2">Email</h3>
-                        <p className="text-muted-foreground text-base" data-testid="text-contact-email">
-                          info@siddhivinayak.com
+                        <p
+                          className="text-muted-foreground text-base"
+                          data-testid="text-contact-email"
+                        >
+                          bhalchandrasawant27@gmail.com
                         </p>
                         <p className="text-sm text-muted-foreground mt-1">
                           We respond within 24 hours
@@ -75,9 +88,11 @@ export default function Contact() {
                         <MapPin className="w-5 h-5 text-primary" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-lg mb-2">Service Areas</h3>
+                        <h3 className="font-semibold text-lg mb-2">
+                          Service Areas
+                        </h3>
                         <p className="text-muted-foreground text-base">
-                          Mumbai, Navi Mumbai, Thane, Pune
+                          Mumbai, Navi Mumbai, Thane
                         </p>
                       </div>
                     </div>
@@ -88,10 +103,13 @@ export default function Contact() {
                         <Clock className="w-5 h-5 text-primary" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-lg mb-2">Working Hours</h3>
+                        <h3 className="font-semibold text-lg mb-2">
+                          Working Hours
+                        </h3>
                         <p className="text-muted-foreground text-base">
-                          Monday - Saturday<br />
-                          9:00 AM - 7:00 PM
+                          Monday - Saturday
+                          <br />
+                          9:00 AM - 9:00 PM
                         </p>
                       </div>
                     </div>
@@ -104,7 +122,10 @@ export default function Contact() {
                     Quick Response Guarantee
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    We understand that waterproofing issues need prompt attention. Our team typically responds to all inquiries within 24 hours and can schedule free inspections at your convenience.
+                    We understand that waterproofing issues need prompt
+                    attention. Our team typically responds to all inquiries
+                    within 24 hours and can schedule free inspections at your
+                    convenience.
                   </p>
                 </Card>
               </div>

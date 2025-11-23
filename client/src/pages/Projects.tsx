@@ -1,14 +1,14 @@
 import SEOHead from "@/components/SEOHead";
 import ProjectCard from "@/components/ProjectCard";
-import { projects } from "@/lib/data";
+import { projects2 } from "@/lib/data";
 
 export default function Projects() {
   return (
     <>
       <SEOHead
         title="Our Projects - Waterproofing Work Gallery"
-        description="View our completed waterproofing projects across Mumbai, Navi Mumbai, Thane, and Pune. Before and after photos of terrace waterproofing, bathroom repairs, wall treatments, and society building maintenance work."
-        keywords="waterproofing projects Mumbai, before after waterproofing, terrace repair photos, bathroom leakage fix examples, building maintenance portfolio"
+        description="View our completed waterproofing projects across Mumbai, Navi Mumbai, Thane, and Pune. Real projects completed by Shri Siddhivinayak Waterproofing for residential buildings, societies, and commercial establishments."
+        keywords="waterproofing projects Mumbai, completed projects, terrace repair, building waterproofing, society maintenance, waterproofing portfolio"
       />
 
       <main>
@@ -20,7 +20,7 @@ export default function Projects() {
                 Our Projects Gallery
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed" data-testid="text-projects-subtitle">
-                Real results from our waterproofing and building repair work across Maharashtra
+                Completed projects showcasing our expertise in waterproofing and building repairs across Maharashtra
               </p>
             </div>
           </div>
@@ -30,7 +30,7 @@ export default function Projects() {
         <section className="py-12 md:py-20 lg:py-24">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-              {projects.map((project) => (
+              {projects2.map((project) => (
                 <ProjectCard key={project.id} project={project} />
               ))}
             </div>
