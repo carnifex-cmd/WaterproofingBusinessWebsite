@@ -37,11 +37,10 @@ export default function Navbar() {
               {navLinks.map((link) => (
                 <Link key={link.href} href={link.href}>
                   <span
-                    className={`inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover-elevate active-elevate-2 min-h-9 px-4 py-2 cursor-pointer ${
-                      isActive(link.href)
+                    className={`inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover-elevate active-elevate-2 min-h-9 px-4 py-2 cursor-pointer ${isActive(link.href)
                         ? "text-primary"
                         : "text-foreground hover:text-primary"
-                    }`}
+                      }`}
                     data-testid={`link-${link.label.toLowerCase()}`}
                   >
                     {link.label}
@@ -49,8 +48,8 @@ export default function Navbar() {
                 </Link>
               ))}
             </div>
-            
-            <Link href="/contact">
+
+            <Link href="/contact" onClick={() => window.scrollTo(0, 0)}>
               <span className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover-elevate active-elevate-2 min-h-9 px-4 py-2 cursor-pointer" data-testid="button-cta-nav">
                 <Phone className="w-4 h-4 mr-2" />
                 Get Free Inspection
@@ -81,11 +80,10 @@ export default function Navbar() {
             {navLinks.map((link) => (
               <Link key={link.href} href={link.href}>
                 <span
-                  className={`flex items-center justify-start whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover-elevate active-elevate-2 min-h-9 px-4 py-2 w-full cursor-pointer ${
-                    isActive(link.href)
+                  className={`flex items-center justify-start whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover-elevate active-elevate-2 min-h-9 px-4 py-2 w-full cursor-pointer ${isActive(link.href)
                       ? "text-primary bg-primary/10"
                       : "text-foreground"
-                  }`}
+                    }`}
                   onClick={() => setIsOpen(false)}
                   data-testid={`link-mobile-${link.label.toLowerCase()}`}
                 >
@@ -93,10 +91,9 @@ export default function Navbar() {
                 </span>
               </Link>
             ))}
-            <Link href="/contact">
+            <Link href="/contact" onClick={() => { setIsOpen(false); window.scrollTo(0, 0); }}>
               <span
                 className="flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover-elevate active-elevate-2 min-h-9 px-4 py-2 w-full mt-4 cursor-pointer"
-                onClick={() => setIsOpen(false)}
                 data-testid="button-cta-mobile"
               >
                 <Phone className="w-4 h-4 mr-2" />

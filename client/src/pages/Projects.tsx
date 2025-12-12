@@ -1,3 +1,4 @@
+import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import ProjectCard from "@/components/ProjectCard";
 import { projects2 } from "@/lib/data";
@@ -46,13 +47,14 @@ export default function Projects() {
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
               Every project starts with a free inspection. Let us assess your waterproofing needs and provide a detailed quotation.
             </p>
-            <a 
+            <Link
               href="/contact"
+              onClick={() => window.scrollTo(0, 0)}
               className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover-elevate active-elevate-2 h-10 px-6 py-2"
               data-testid="button-projects-cta"
             >
               Schedule Free Inspection
-            </a>
+            </Link>
           </div>
         </section>
       </main>
