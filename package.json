@@ -5,7 +5,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && npm run build:server",
+    "build:server": "esbuild server/index-prod.ts --bundle --platform=node --format=esm --outfile=dist/server.js --external:express --external:zod --packages=external",
+    "start": "node dist/server.js",
     "preview": "vite preview"
   },
   "dependencies": {
