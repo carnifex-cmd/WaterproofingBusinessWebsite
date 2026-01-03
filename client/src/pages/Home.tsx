@@ -23,20 +23,20 @@ export default function Home() {
           {/* Background with gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/90 to-primary/80" />
 
-          {/* Responsive hero background image - WebP for smaller file sizes */}
+          {/* Responsive hero background image - WebP with low quality (OK for 20% opacity overlay) */}
           <picture className="absolute inset-0">
             <source
               media="(max-width: 640px)"
-              srcSet="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=768&h=500&fit=crop&q=75&fm=webp"
+              srcSet="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=768&h=500&fit=crop&q=40&fm=webp"
               type="image/webp"
             />
             <source
               media="(max-width: 1024px)"
-              srcSet="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1280&h=600&fit=crop&q=80&fm=webp"
+              srcSet="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1280&h=600&fit=crop&q=60&fm=webp"
               type="image/webp"
             />
             <img
-              src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&h=800&fit=crop&q=80&fm=webp"
+              src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&h=800&fit=crop&q=60&fm=webp"
               alt=""
               className="w-full h-full object-cover opacity-20 mix-blend-overlay"
               fetchPriority="high"
