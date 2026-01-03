@@ -34,24 +34,32 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       {hasValidImages && (
         <div className="grid grid-cols-2 gap-1">
           <div className="aspect-[4/3] bg-muted flex items-center justify-center relative overflow-hidden">
-            <img 
-              src={project.beforeImage} 
+            <img
+              src={project.beforeImage}
               alt="Before"
               className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+              width={400}
+              height={300}
             />
             <span className="absolute bottom-2 left-2 bg-black/50 text-white text-xs font-medium px-2 py-1 rounded">Before</span>
           </div>
           <div className="aspect-[4/3] bg-primary/5 flex items-center justify-center relative overflow-hidden">
-            <img 
-              src={project.afterImage} 
+            <img
+              src={project.afterImage}
               alt="After"
               className="w-full h-full object-cover"
+              loading="lazy"
+              decoding="async"
+              width={400}
+              height={300}
             />
             <span className="absolute bottom-2 left-2 bg-primary text-primary-foreground text-xs font-medium px-2 py-1 rounded">After</span>
           </div>
         </div>
       )}
-      
+
       {/* Content */}
       <div className="p-6 flex-1 flex flex-col">
         <div className="mb-3">
@@ -59,16 +67,16 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             {project.serviceType}
           </Badge>
         </div>
-        
+
         <h3 className="font-heading text-xl font-semibold mb-2" data-testid={`text-project-title-${project.id}`}>
           {project.title}
         </h3>
-        
+
         <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
           <MapPin className="w-4 h-4" />
           <span data-testid={`text-project-location-${project.id}`}>{project.location}</span>
         </div>
-        
+
         <p className="text-muted-foreground text-sm leading-relaxed mb-4">
           {project.description}
         </p>
