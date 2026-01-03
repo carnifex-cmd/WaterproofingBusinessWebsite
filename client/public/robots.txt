@@ -1,8 +1,8 @@
 # Robots.txt for Shri Siddhivinayak Waterproofing
-# https://shrisiddhivinayakwaterproofing.in
+# https://www.shrisiddhivinayakwaterproofing.in
 
 User-agent: *
 Allow: /
 
-# Sitemap location
-Sitemap: https://shrisiddhivinayakwaterproofing.in/sitemap.xml
+# Sitemap location (use www to match canonical)
+Sitemap: https://www.shrisiddhivinayakwaterproofing.in/sitemap.xml
