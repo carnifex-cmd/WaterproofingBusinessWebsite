@@ -17,9 +17,11 @@
   <!-- Canonical URL -->
   <link rel="canonical" href="https://www.shrisiddhivinayakwaterproofing.in/" />
 
-  <!-- Preload critical resources for LCP -->
-  <link rel="preload" href="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&h=800&fit=crop"
-    as="image" fetchpriority="high">
+  <!-- Preload critical resources for LCP - responsive images -->
+  <link rel="preload" href="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=768&h=500&fit=crop&q=75"
+    as="image" fetchpriority="high" media="(max-width: 640px)">
+  <link rel="preload" href="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&h=800&fit=crop&q=80"
+    as="image" fetchpriority="high" media="(min-width: 641px)">
   <link rel="preload"
     href="https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiJ-Ek-_EeA.woff2"
     as="font" type="font/woff2" crossorigin>

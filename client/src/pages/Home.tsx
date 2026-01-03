@@ -22,7 +22,26 @@ export default function Home() {
         <section className="relative min-h-[500px] md:min-h-[600px] flex items-center justify-center overflow-hidden">
           {/* Background with gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/90 to-primary/80" />
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&h=800&fit=crop')] bg-cover bg-center opacity-20 mix-blend-overlay" />
+
+          {/* Responsive hero background image */}
+          <picture className="absolute inset-0">
+            <source
+              media="(max-width: 640px)"
+              srcSet="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=768&h=500&fit=crop&q=75"
+            />
+            <source
+              media="(max-width: 1024px)"
+              srcSet="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1280&h=600&fit=crop&q=80"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&h=800&fit=crop&q=80"
+              alt=""
+              className="w-full h-full object-cover opacity-20 mix-blend-overlay"
+              fetchPriority="high"
+              decoding="async"
+            />
+          </picture>
+
 
           {/* Content */}
           <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
